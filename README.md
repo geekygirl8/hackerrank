@@ -1,5 +1,3 @@
-# hackerrank
+### Hackerrank
 
-## HAckerrank Solutions for Problem Solving such as Data Structure
-<br>
-## and Algorithms problem sets
+## Hackerrank Solutions for Problem Solving such as Data Structure and Algorithms problem sets
