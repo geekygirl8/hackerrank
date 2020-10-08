@@ -1,6 +1,6 @@
 ### Hackerrank
 This repository is made to encourage different solutions and approaches of DSA problems from Hackerrank.You can also add other good problem set from other coding platforms.Don't forget to mention problem statement as well.
-If this is your first time to open source contribution I have created this repo for all the you to start contributing.
+If this is your first time to open source contribution I have created this repository for all the beginners of open source to start contributing and learning.
 
 ## Hacktoberfest 
 ![img](https://embed-fastly.wistia.com/deliveries/49bd387c40e2c5aada92abdf973bc46d.webp?image_crop_resized=960x540)
