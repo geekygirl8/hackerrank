@@ -1,0 +1,202 @@
+
+   body {
+   font-family: "Montserrat";
+ }
+
+   h1 {
+     font-family: 'Montserrat';
+     font-size: 3.2rem;
+     line-height: 1.5;
+     padding-bottom: 30px;
+     font-weight: bold;
+   }
+
+   h3 {
+     font-family: "Montserrat";
+     font-weight: bold;
+     padding-top: 30px;
+   }
+
+   h2{
+     font-family: "Montserrat";
+     font-size: 3rem;
+     line-height: 1.5;
+   }
+
+
+  #title {
+    background-color: #ff4c68;
+    color:	#ffffff;
+    padding-bottom: 5%;
+  }
+
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+
+}
+
+.nav-item {
+  padding: 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.1rem;
+}
+
+/* Download Button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features-Section */
+
+#features {
+  padding: 5% 0;
+  background-color: #fff;
+  position: relative;
+  z-index: 1; /*no need for this bcz the div comes later has higher z-index than upper div*/
+}
+
+/* Feature-box */
+
+.feature-block {
+  text-align:center;
+}
+
+.features-paragraph{
+  margin: 5% 10% 5% 10%;
+  color: #8f8f8f;
+}
+
+
+/* Feature-Icons */
+
+.feature-icons{
+  color: #ef8172;
+}
+
+.feature-icons:hover{
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonials-image{
+  width: 13%;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+/* we give this padding here but not in the testimonials because we want only the content to be padded not
+carousel/sliding buttons */
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Press-Section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing-Section  */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+/* cta section */
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  height: 400px;
+  padding: 3% 25%;
+}
+
+.cta-header {
+  padding-bottom: 50px;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+
+.cta-buttons {
+  margin: 0 2%;
+}
+
+/* footer-section */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  margin: 3% 3%;
+}
+
+.footer-icons {
+  margin: 3% 1%;
+}
+
+.footer-paragraph {
+  padding-top: 20px;
+}
+
+
+/* media query breakpoints */
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
